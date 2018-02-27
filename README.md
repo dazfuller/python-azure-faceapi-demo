@@ -16,6 +16,7 @@ Then you can set up the virtual environment as follows.
 $ mkdir venv
 $ python -m venv venv/csdemo
 $ source venv/csdemo/bin/activate
+$ pip install -r requirements.txt
 ```
 
 I've built the solution using [Visual Studio Code](https://code.visualstudio.com) and there is a vscode settings file in place which will work with this virtual environment (assuming you have the python extension install).
