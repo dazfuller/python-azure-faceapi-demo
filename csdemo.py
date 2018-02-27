@@ -53,7 +53,7 @@ def processFace(face, inputFile, outputFile):
     draw = ImageDraw.Draw(card)
     draw.multiline_text((240, 30), faceInfo, fill=0, font=FONT)
     del draw
-    card.save('{}/{}-{}.jpg'.format(OUTPUT_DIR, outputFile, face['faceId']), 'PNG')
+    card.save('{}/{}-{}.png'.format(OUTPUT_DIR, outputFile, face['faceId']), 'PNG')
 
 def run():
     if os.path.exists(OUTPUT_DIR):
