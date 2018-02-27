@@ -2,6 +2,8 @@
 
 This is a simple python app which uses the Azure [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) Face API, it will take collection of JPG images from a source directory, submit each image and then produce a card for each face found showing the facial attributes (age and gender) along with the emotional scoring.
 
+![Example card](media/example_card.jpg)
+
 ## Setting up
 
 The code should pretty much work as is but with a couple of minor things. First I'm working within a python virtual environment on OSX, I've got Anaconda installed but you'll need to upgrade Python to get the `venv` module working. You can do this wtih the following command.
