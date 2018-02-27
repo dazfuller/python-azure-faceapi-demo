@@ -4,7 +4,7 @@ This is a simple python app which uses the Azure [Cognitive Services](https://az
 
 ![Example card](/media/example_card.png?raw=true "Example card")
 
-## Setting up
+## Setting up
 
 The code should pretty much work as is but with a couple of minor things. First I'm working within a python virtual environment on OSX, I've got Anaconda installed but you'll need to upgrade Python to get the `venv` module working. You can do this wtih the following command.
 
