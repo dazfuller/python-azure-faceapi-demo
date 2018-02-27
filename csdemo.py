@@ -46,7 +46,7 @@ def processFace(face, inputFile, outputFile):
     fa = face['faceAttributes']
     em = fa['emotion']
     faceInfo = 'Age: {}\nGender: {}\n\n'.format(fa['age'], fa['gender'])
-    faceInfo += '\n'.join(['{}: {}%'.format(k, v * 100) for k, v in em.items()])
+    faceInfo += '\n'.join(['{}: {:.2f}%'.format(k, v * 100) for k, v in em.items()])
     cropped.thumbnail((180, 180))
     card = Image.new("RGB", (440, 240), "#FFFFFF")
     card.paste(cropped, (30, 30))
